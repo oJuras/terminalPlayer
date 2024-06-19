@@ -1,5 +1,5 @@
 {
-  "name": "@juras/terminalplayer",
+  "name": "@ojuras/terminalplayer",
   "version": "1.0.0",
   "description": "Allows you to play .mp3 and .wav sounds on the Windows terminal",
   "main": "index.js",
