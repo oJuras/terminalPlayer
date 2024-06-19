@@ -3,12 +3,12 @@ Allows you to play .mp3 and .wav sounds on the Windows terminal
 
 ## Installation
 
-    npm install terminalplayer
+    npm i @ojuras/terminalplayer
 
 ## Examples
 
 ```javascript
-const tPlayer = require('terminalPlayer');
+const tPlayer = require('@ojuras/terminalplayer');
 
 tPlayer.playFrom('./sample.mp3');
 
