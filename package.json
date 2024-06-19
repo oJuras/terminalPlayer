@@ -1,0 +1,28 @@
+{
+  "name": "@juras/terminalplayer",
+  "version": "1.0.0",
+  "description": "Allows you to play .mp3 and .wav sounds on the Windows terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oJuras/terminalPlayer.git"
+  },
+  "keywords": [
+    "play",
+    "mp3",
+    "wav",
+    "sound",
+    "audio",
+    "console",
+    "terminal"
+  ],
+  "author": "Felipe \"Juras\" Sartore <felipesartore@yahoo.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oJuras/terminalPlayer/issues"
+  },
+  "homepage": "https://github.com/oJuras/terminalPlayer#readme"
+}
