@@ -5,7 +5,7 @@ const path = require("path");
 const re = /^(?!.*[\\\/]\s+)(?!(?:.*\s|.*\.|\W+)$)(?:[a-zA-Z]:)?(?:(?:[^<>:"\|\?\*\n])+(?:\/\/|\/|\\\\|\\)?)+$/gm
 
 const playFrom = async function playFrom(filePath) {
-    if(filePath.startsWith("./") || filePath.startsWith("../")){
+    if((filePath.startsWith("./") || filePath.startsWith("../")) && re.exec(filePath)){
         this.filePath = path.resolve(filePath);
     }else if(re.exec(filePath)){
         this.filePath = filePath;
