@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/oJuras/terminalPlayer/issues"
   },
-  "homepage": "https://github.com/oJuras/terminalPlayer#readme"
+  "homepage": "https://github.com/oJuras/terminalPlayer#readme",
+  "publishConfig": {
+    "@ojuras:registry": "https://npm.pkg.github.com"
+  }
 }
