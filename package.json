@@ -3,9 +3,6 @@
   "version": "1.0.3",
   "description": "Allows you to play .mp3 and .wav sounds on the Windows terminal",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/oJuras/terminalPlayer.git"
